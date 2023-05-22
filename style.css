@@ -1,0 +1,20 @@
+/* body {
+    max-width: 1200px;
+    background-color: papayawhip; 
+    margin: 0 auto;
+}  PRUEBA BODY */  
+
+/* CONTENEDOR PRINCIPAL DE LAS LISTAS */
+.listas{
+    display: flex; /* espacio necesario para desplegar el contenido */
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONTENEDOR HIJO DE LAS LISTAS */
+.orden {
+    margin: 50px;
+    align-self: center; /* alinea los elementos flexibles de la línea flexible actual*/
+    justify-self: center; /* alinea el contenido en el centro de la celda */
+    color: salmon; /* color del texto */
+}
